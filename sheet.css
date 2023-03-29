@@ -1,0 +1,117 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background:black;
+}
+
+nav{
+    display: flex;
+    width:84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:wheat;
+    font-weight: bold;
+    list-style: none;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+color: red;
+}
+.logo{
+    color:white;
+    font-size: 35px;
+}
+span{
+    color:red ;
+}
+.detel{
+    margin-left: 8%;
+    margin-top: 15px;
+}
+
+.detel h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+    color:wheat ;
+}
+
+.detel  h3{
+font-size: 25px;
+letter-spacing: 1px;
+color: wheat;
+}
+
+.detel h4{
+font-size:23px ;
+color: #fcfc;
+letter-spacing: 2px;
+}
+
+.cv{
+    text-decoration: none;
+    color: white;
+    background-color: #f9004d;
+    padding:7px  30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px black, 0px 0px 8px #858585;
+    transition: 0.5s;
+}
+
+.cv:hover{
+background-color: transparent;
+outline: none;
+border: #f9004d 2px solid;
+}
+
+ .icon{
+    color: white;
+ }
+.images{
+    width:45%;
+    height:80% ;
+    position: absolute;
+    bottom: 0%;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s,left 1s;
+}
+
+.images .shape{
+    width: 100%;
+}
+
+
+.face-logo{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 35px;
+    transition: 0.5s;
+}
